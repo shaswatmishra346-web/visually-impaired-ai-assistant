@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Next.js build output
+.next/
+frontend/.next/
+out/
+frontend/out/
+
+# Production builds
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Docker
+.docker/
+
+# Misc
+*.tmp
+*.temp
+*.bak
+.cache/
+
+# Local config
+*.local.json
+*.local.js
+*.local.ts
+
+# Test images
+test_image.jpg
+test_valid.jpg
+test_note.txt
+
+# Docker compose override
+docker-compose.override.yml

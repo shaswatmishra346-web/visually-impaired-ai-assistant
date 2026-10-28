@@ -1,0 +1,14 @@
+# Backend Requirements for Assistive AI Platform
+fastapi>=0.104.0,<0.110.0
+uvicorn[standard]>=0.27.0,<0.30.0
+onnxruntime>=1.18.0,<2.0.0
+torch>=2.3.0,<3.0.0
+transformers>=4.41.0,<5.0.0
+easyocr>=1.7.0,<2.0.0
+redis>=5.0.0,<6.0.0
+pyttsx3>=2.90,<3.0.0
+python-multipart>=0.0.9,<0.1.0
+pydantic>=2.7.0,<3.0.0
+requests>=2.31.0,<3.0.0
+opencv-python>=4.8.0,<6.0.0  # For video frame processing
+numpy>=1.24.0,<3.0.0          # For numerical operations
